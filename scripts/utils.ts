@@ -6,7 +6,7 @@ export const isValidClmm = (id: string) => VALID_PROGRAM_ID.has(id)
 
 export const devConfigs = [
   {
-    id: 'CSXnnfF6c9jetGKqWkii55CRRvBt8jr9NvkXuh7G4tPA',
+    id: '8tuDKCjN9dw978zV16a6znQBhNLCmC3KKzJw8FwjgRQN',
     index: 0,
     protocolFeeRate: 120000,
     tradeFeeRate: 100,
@@ -17,12 +17,12 @@ export const devConfigs = [
     defaultRangePoint: [0.001, 0.003, 0.005, 0.008, 0.01],
   },
   {
-    id: 'B9H7TR8PSjJT7nuW2tuPkFC63z7drtMZ4LoCtD7PrCN1',
+    id: '2eB2nFKhGaMtn4SvxKjKFN671JhehuidAhShFRA9G8GN',
     index: 1,
     protocolFeeRate: 120000,
-    tradeFeeRate: 2500,
-    tickSpacing: 60,
-    fundFeeRate: 40000,
+    tradeFeeRate: 10,
+    tickSpacing: 100,
+    fundFeeRate: 1000,
     description: 'Best for most pairs',
     defaultRange: 0.1,
     defaultRangePoint: [0.01, 0.05, 0.1, 0.2, 0.5],
@@ -97,3 +97,14 @@ export const devConfigs = [
 //       defaultRangePoint: [0.01, 0.05, 0.1, 0.2, 0.5],
 //     },
 //   ]
+
+
+export const printSimulateInfo = () => {
+  console.log(
+    'you can paste simulate tx string here: https://explorer.solana.com/tx/inspector and click simulate to check transaction status'
+  )
+  console.log(
+    'if tx simulate successful but did not went through successfully after running execute(xxx), usually means your txs were expired, try set up higher priority fees'
+  )
+  console.log('strongly suggest use paid rpcs would get you better performance')
+}

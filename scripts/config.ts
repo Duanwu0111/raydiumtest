@@ -37,7 +37,7 @@ function httpsRequest(url: string, options: https.RequestOptions, data: string):
 }
 export const owner: Keypair = Keypair.fromSecretKey(bs58.decode(process.env.PRIVATE_KEY || ""))
 // export const connection = new Connection('https://api.mainnet-beta.solana.com') //<YOUR_RPC_URL>
-export const connection = new Connection('https://rpc.fc.devnet.soo.network/rpc') //<YOUR_RPC_URL>
+export const connection = new Connection('https://rpc.testnet.soo.network/rpc') //<YOUR_RPC_URL>
 export const txVersion = TxVersion.V0 // or TxVersion.LEGACY
 const cluster = 'devnet' // 'mainnet' | 'devnet'
 
