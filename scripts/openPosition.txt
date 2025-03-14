@@ -1,0 +1,275 @@
+正在获取交易 5kog5p158mZYL4quxxt97A7eyPqxSqb2nmxyEPcPTCjpgE1KjXT7FaUouV36JTLmXAUbiko3JAQJ2477e7NBcEEE 的详情...
+
+=== 交易详情: 5kog5p158mZYL4quxxt97A7eyPqxSqb2nmxyEPcPTCjpgE1KjXT7FaUouV36JTLmXAUbiko3JAQJ2477e7NBcEEE ===
+Slot: 1487058
+时间: 2025-03-13T08:44:26.000Z
+日志:
+  [0] Program 11111111111111111111111111111111 invoke [1]
+  [1] Program 11111111111111111111111111111111 success
+  [2] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [1]
+  [3] Program log: Instruction: InitializeAccount
+  [4] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 3443 of 999850 compute units
+  [5] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+  [6] Program RapAmzUdR9e5rgsSkM6eGXPhTQATJAVxPxbxqCv53Yo invoke [1]
+  [7] Program log: Instruction: OpenPositionV2
+  [8] Program 11111111111111111111111111111111 invoke [2]
+  [9] Program 11111111111111111111111111111111 success
+  [10] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]
+  [11] Program log: Instruction: InitializeMint2
+  [12] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 2780 of 974598 compute units
+  [13] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+  [14] Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL invoke [2]
+  [15] Program log: Create
+  [16] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [3]
+  [17] Program log: Instruction: GetAccountDataSize
+  [18] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 1595 of 955262 compute units
+  [19] Program return: TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA pQAAAAAAAAA=
+  [20] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+  [21] Program 11111111111111111111111111111111 invoke [3]
+  [22] Program 11111111111111111111111111111111 success
+  [23] Program log: Initialize the associated token account
+  [24] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [3]
+  [25] Program log: Instruction: InitializeImmutableOwner
+  [26] Program log: Please upgrade to SPL Token 2022 for immutable owner support
+  [27] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 1405 of 948570 compute units
+  [28] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+  [29] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [3]
+  [30] Program log: Instruction: InitializeAccount3
+  [31] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 4214 of 944659 compute units
+  [32] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+  [33] Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL consumed 22081 of 962153 compute units
+  [34] Program ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL success
+  [35] Program 11111111111111111111111111111111 invoke [2]
+  [36] Program 11111111111111111111111111111111 success
+  [37] Program log: liquidity: 11382949, amount_0_max: 870000, amount_1_max: 13408144, tick_lower_index: 20160, tick_upper_index: 34020, tick_array_lower_start_index: 18000, tick_array_upper_start_index: 32400
+  [38] Program data: 7XCU5jlUtKK1Cz6VCAAAAAAAAAAAAAAAdEM/Cb35ntwDAAAAAAAAAJBpAABwRg0AAAAAAH3ZwgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=
+  [39] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]
+  [40] Program log: Instruction: TransferChecked
+  [41] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 6239 of 882933 compute units
+  [42] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+  [43] Program TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb invoke [2]
+  [44] Program log: Instruction: TransferChecked
+  [45] Program TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb consumed 2190 of 873048 compute units
+  [46] Program TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb success
+  [47] Program data: fvCvzp5YmWt3lxcjvlDNU1i4iw7DYCMLRZK2V+g3c+uds51+RimhZJBpAADATgAA5IQAALULPpUIAAAAAAAAAAAAAABavOuVCAAAAAAAAAAAAAAA
+  [48] Program data: ZB5X+cTfms53lxcjvlDNU1i4iw7DYCMLRZK2V+g3c+uds51+RimhZCcNTD6AK7lbOIL0u5pVnyt5u8ERyfKisX4MscSzLkq6Jw1MPoAruVs4gvS7mlWfK3m7wRHJ8qKxfgyxxLMuSrrATgAA5IQAAKWwrQAAAAAAAAAAAAAAAABwRg0AAAAAAH3ZwgAAAAAAAAAAAAAAAAAAAAAAAAAAAA==
+  [49] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]
+  [50] Program log: Instruction: MintTo
+  [51] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 4492 of 863977 compute units
+  [52] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+  [53] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA invoke [2]
+  [54] Program log: Instruction: SetAuthority
+  [55] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA consumed 2911 of 856771 compute units
+  [56] Program TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA success
+  [57] Program RapAmzUdR9e5rgsSkM6eGXPhTQATJAVxPxbxqCv53Yo consumed 147011 of 996407 compute units
+  [58] Program RapAmzUdR9e5rgsSkM6eGXPhTQATJAVxPxbxqCv53Yo success
+  [59] Program ComputeBudget111111111111111111111111111111 invoke [1]
+  [60] Program ComputeBudget111111111111111111111111111111 success
+  [61] Program ComputeBudget111111111111111111111111111111 invoke [1]
+  [62] Program ComputeBudget111111111111111111111111111111 success
+交易类型: OpenPosition
+涉及账户:
+  [0] 3dSfLCaVLoLSLsyAPerddtCAnTrWW19Vohn8m7yea4iD
+  [1] 7RzRA4AKXbTSNdGBgeQeudQRUus5Ut8fJdDgru78skv8
+  [2] 2g68xPNygiM4ErZTXyxZQSnA2CoCRp9XqVkPhgBNCdWk
+  [3] 2V9grGF8FWpcwPZdAtoS2z2WyUXuGL1WsDLBqBkEFFYA
+  [4] 4q7vUKTe6TBjuigNxTssWCxTufwrHKnbJQU3GdF5R1JZ
+  [5] 62qshPp3k4Vnff4eH4EtSTqD7BdFhPhP5AWLSbetUcBL
+  [6] 65SfsFosLg6iBpVE6WCZG5d8jL9HUAkzsgUHpLJWZePv
+  [7] 6xDdi6JF74qU4nxP1CnERtjm4t9DTK8Bw7ufX8w4XS64
+  [8] 7xsWxjTaApdqSqbrJT2L2jz7XX589gVeAwzx8TxyE4aJ
+  [9] 93q9Bo3iokby9R5Xsbodg1CxPT9PdVBhkQ9sidY64EDq
+  [10] 9BSQbAjQMpfoSV2aort6AWQkLwG3yRzLAUGYkw4HnzC5
+  [11] C1Fa3VW33VDXHjDPtQZsgDUNheuSE1VmPFxvT2nSB1Nc
+  [12] HHZ8TMLL14ScKYn96cz1hiMWFUj3K2a7tTXoaYq7No91
+  [13] 11111111111111111111111111111111
+  [14] ATokenGPvbdGVxr1b2hvZbsiqW5xWH25efTNsLJA8knL
+  [15] ComputeBudget111111111111111111111111111111
+  [16] ERFzpDteGNo8LTDKW1WwVGrkRMmA2y9WZHXNHxMA6BSV
+  [17] metaqbxxUerdq28cj1RbAWkYQm3ybzjb6a8bt518x1s
+  [18] RapAmzUdR9e5rgsSkM6eGXPhTQATJAVxPxbxqCv53Yo
+  [19] So11111111111111111111111111111111111111112
+  [20] SysvarRent111111111111111111111111111111111
+  [21] TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA
+  [22] TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb
+代币余额变化:
+  账户[3] 7RzRA4AKXbTSNdGBgeQeudQRUus5Ut8fJdDgru78skv8: 0 -> 1 (变化: 1)
+  账户[5] ERFzpDteGNo8LTDKW1WwVGrkRMmA2y9WZHXNHxMA6BSV: 13570919 -> 801258 (变化: -12769661)
+  账户[7] So11111111111111111111111111111111111111112: 2851987890 -> 2852857890 (变化: 870000)
+  账户[11] ERFzpDteGNo8LTDKW1WwVGrkRMmA2y9WZHXNHxMA6BSV: 41396827701 -> 41409597362 (变化: 12769661)
+SOL余额变化:
+  账户[0] 0.008167361 SOL -> 0.006789631 SOL (变化: -0.00137773 SOL)
+  账户[1] 0 SOL -> 0.00000126 SOL (变化: 0.00000126 SOL)
+  账户[2] 0 SOL -> 0.000002454 SOL (变化: 0.000002454 SOL)
+  账户[3] 0 SOL -> 0.000001758 SOL (变化: 0.000001758 SOL)
+  账户[7] 2.851989648 SOL -> 2.852859648 SOL (变化: 0.00087 SOL)
+  账户[12] 0 SOL -> 0.000001758 SOL (变化: 0.000001758 SOL)
+指令数据:
+  [0] 已解析指令: {
+  info: {
+    base: '3dSfLCaVLoLSLsyAPerddtCAnTrWW19Vohn8m7yea4iD',
+    lamports: 871758,
+    newAccount: 'HHZ8TMLL14ScKYn96cz1hiMWFUj3K2a7tTXoaYq7No91',
+    owner: 'TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA',
+    seed: '6xNm4QeHbFXyEQcgcWLv65JNJ9mxj2VZ',
+    source: '3dSfLCaVLoLSLsyAPerddtCAnTrWW19Vohn8m7yea4iD',
+    space: 165
+  },
+  type: 'createAccountWithSeed'
+}
+  [1] 已解析指令: {
+  info: {
+    account: 'HHZ8TMLL14ScKYn96cz1hiMWFUj3K2a7tTXoaYq7No91',
+    mint: 'So11111111111111111111111111111111111111112',
+    owner: '3dSfLCaVLoLSLsyAPerddtCAnTrWW19Vohn8m7yea4iD',
+    rentSysvar: 'SysvarRent111111111111111111111111111111111'
+  },
+  type: 'initializeAccount'
+}
+  [2] 未解析指令 - Program: RapAmzUdR9e5rgsSkM6eGXPhTQATJAVxPxbxqCv53Yo,  decodedData: 47z35RPGuPNfaFzYT1J56PP2pwvmfJJQZr21LSGWmQ1kgEYMnGmdb3VUkjiSnXpHaZNEty6Zp9AVojg2T,HexData: 4db84ad67056f1c7a5b0ad0000000000000000000000000070460d00000000009097cc0000000000c04e0000e484000050460000907e0000000100
+instruction Data: 47z35RPGuPNfaFzYT1J56PP2pwvmfJJQZr21LSGWmQ1kgEYMnGmdb3VUkjiSnXpHaZNEty6Zp9AVojg2T
+hex instr data: 4db84ad67056f1c7a5b0ad0000000000000000000000000070460d00000000009097cc0000000000c04e0000e484000050460000907e0000000100
+指令 Discriminator: 4db84ad67056f1c7
+未知指令类型或类型不匹配，Discriminator: 4db84ad67056f1c7
+原始数据 (HEX): 4db84ad67056f1c7a5b0ad0000000000000000000000000070460d00000000009097cc0000000000c04e0000e484000050460000907e0000000100
+内部指令数据:
+  由顶层指令 [2] 触发: 
+    [0] 已解析内部指令: {
+  "info": {
+    "lamports": 1260,
+    "newAccount": "7RzRA4AKXbTSNdGBgeQeudQRUus5Ut8fJdDgru78skv8",
+    "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+    "source": "3dSfLCaVLoLSLsyAPerddtCAnTrWW19Vohn8m7yea4iD",
+    "space": 82
+  },
+  "type": "createAccount"
+}
+    [1] 已解析内部指令: {
+  "info": {
+    "decimals": 0,
+    "mint": "7RzRA4AKXbTSNdGBgeQeudQRUus5Ut8fJdDgru78skv8",
+    "mintAuthority": "93q9Bo3iokby9R5Xsbodg1CxPT9PdVBhkQ9sidY64EDq"
+  },
+  "type": "initializeMint2"
+}
+    [2] 已解析内部指令: {
+  "info": {
+    "account": "2V9grGF8FWpcwPZdAtoS2z2WyUXuGL1WsDLBqBkEFFYA",
+    "mint": "7RzRA4AKXbTSNdGBgeQeudQRUus5Ut8fJdDgru78skv8",
+    "source": "3dSfLCaVLoLSLsyAPerddtCAnTrWW19Vohn8m7yea4iD",
+    "systemProgram": "11111111111111111111111111111111",
+    "tokenProgram": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+    "wallet": "3dSfLCaVLoLSLsyAPerddtCAnTrWW19Vohn8m7yea4iD"
+  },
+  "type": "create"
+}
+    [3] 已解析内部指令: {
+  "info": {
+    "extensionTypes": [
+      "immutableOwner"
+    ],
+    "mint": "7RzRA4AKXbTSNdGBgeQeudQRUus5Ut8fJdDgru78skv8"
+  },
+  "type": "getAccountDataSize"
+}
+    [4] 已解析内部指令: {
+  "info": {
+    "lamports": 1758,
+    "newAccount": "2V9grGF8FWpcwPZdAtoS2z2WyUXuGL1WsDLBqBkEFFYA",
+    "owner": "TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA",
+    "source": "3dSfLCaVLoLSLsyAPerddtCAnTrWW19Vohn8m7yea4iD",
+    "space": 165
+  },
+  "type": "createAccount"
+}
+    [5] 已解析内部指令: {
+  "info": {
+    "account": "2V9grGF8FWpcwPZdAtoS2z2WyUXuGL1WsDLBqBkEFFYA"
+  },
+  "type": "initializeImmutableOwner"
+}
+    [6] 已解析内部指令: {
+  "info": {
+    "account": "2V9grGF8FWpcwPZdAtoS2z2WyUXuGL1WsDLBqBkEFFYA",
+    "mint": "7RzRA4AKXbTSNdGBgeQeudQRUus5Ut8fJdDgru78skv8",
+    "owner": "3dSfLCaVLoLSLsyAPerddtCAnTrWW19Vohn8m7yea4iD"
+  },
+  "type": "initializeAccount3"
+}
+    [7] 已解析内部指令: {
+  "info": {
+    "lamports": 2454,
+    "newAccount": "2g68xPNygiM4ErZTXyxZQSnA2CoCRp9XqVkPhgBNCdWk",
+    "owner": "RapAmzUdR9e5rgsSkM6eGXPhTQATJAVxPxbxqCv53Yo",
+    "source": "3dSfLCaVLoLSLsyAPerddtCAnTrWW19Vohn8m7yea4iD",
+    "space": 281
+  },
+  "type": "createAccount"
+}
+    [8] 已解析内部指令: {
+  "info": {
+    "authority": "3dSfLCaVLoLSLsyAPerddtCAnTrWW19Vohn8m7yea4iD",
+    "destination": "6xDdi6JF74qU4nxP1CnERtjm4t9DTK8Bw7ufX8w4XS64",
+    "mint": "So11111111111111111111111111111111111111112",
+    "source": "HHZ8TMLL14ScKYn96cz1hiMWFUj3K2a7tTXoaYq7No91",
+    "tokenAmount": {
+      "amount": "870000",
+      "decimals": 9,
+      "uiAmount": 0.00087,
+      "uiAmountString": "0.00087"
+    }
+  },
+  "type": "transferChecked"
+}
+    [9] 已解析内部指令: {
+  "info": {
+    "authority": "3dSfLCaVLoLSLsyAPerddtCAnTrWW19Vohn8m7yea4iD",
+    "destination": "C1Fa3VW33VDXHjDPtQZsgDUNheuSE1VmPFxvT2nSB1Nc",
+    "mint": "ERFzpDteGNo8LTDKW1WwVGrkRMmA2y9WZHXNHxMA6BSV",
+    "source": "62qshPp3k4Vnff4eH4EtSTqD7BdFhPhP5AWLSbetUcBL",
+    "tokenAmount": {
+      "amount": "12769661",
+      "decimals": 9,
+      "uiAmount": 0.012769661,
+      "uiAmountString": "0.012769661"
+    }
+  },
+  "type": "transferChecked"
+}
+    [10] 已解析内部指令: {
+  "info": {
+    "account": "2V9grGF8FWpcwPZdAtoS2z2WyUXuGL1WsDLBqBkEFFYA",
+    "amount": "1",
+    "mint": "7RzRA4AKXbTSNdGBgeQeudQRUus5Ut8fJdDgru78skv8",
+    "mintAuthority": "93q9Bo3iokby9R5Xsbodg1CxPT9PdVBhkQ9sidY64EDq"
+  },
+  "type": "mintTo"
+}
+    [11] 已解析内部指令: {
+  "info": {
+    "authority": "93q9Bo3iokby9R5Xsbodg1CxPT9PdVBhkQ9sidY64EDq",
+    "authorityType": "mintTokens",
+    "mint": "7RzRA4AKXbTSNdGBgeQeudQRUus5Ut8fJdDgru78skv8",
+    "newAuthority": null
+  },
+  "type": "setAuthority"
+}
+  [3] 未解析指令 - Program: ComputeBudget111111111111111111111111111111,  decodedData: 3Jv73z5Y9SRV,HexData: 0320a1070000000000
+内部指令数据:
+0320a1070000000000
+{
+  instruction: 'SetComputeUnitPrice',
+  data: {
+    discriminator: { type: 'u8', data: 3 },
+    units: { type: 'u64', data: 500000 }
+  }
+}
+  [4] 未解析指令 - Program: ComputeBudget111111111111111111111111111111,  decodedData: FjL4FH,HexData: 0240420f00
+内部指令数据:
+{
+  instruction: 'SetComputeUnitLimit',
+  data: {
+    discriminator: { type: 'u8', data: 2 },
+    units: { type: 'u32', data: 1000000 }
+  }
+}
