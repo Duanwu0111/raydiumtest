@@ -27,7 +27,7 @@ export const increaseLiquidity = async () => {
   const position = allPosition.find((p) => p.poolId.toBase58() === poolInfo.id)
   if (!position) throw new Error(`user do not have position in pool: ${poolInfo.id}`)
 
-  const inputAmount = 0.001 // SOL UI amount
+  const inputAmount = 0.01 // SOL UI amount
   const slippage = 0.05
 
   const epochInfo = await raydium.fetchEpochInfo()
@@ -42,6 +42,7 @@ export const increaseLiquidity = async () => {
     amountHasFee: true,
     epochInfo: epochInfo,
   })
+  console.log(new Decimal(inputAmount || '0'),poolInfo.mintA.decimals);
 
   const { execute } = await raydium.clmm.increasePositionFromLiquidity({
     poolInfo,

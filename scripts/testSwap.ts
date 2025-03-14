@@ -21,7 +21,7 @@ import {
     let clmmPoolInfo: ComputeClmmPoolInfo
     let tickCache: ReturnTypeFetchMultiplePoolTickArrays
   
-    const inputAmount = new BN(100)
+    const inputAmount = new BN(1000000)
   
     // if (raydium.cluster === 'mainnet') {
     //   // note: api doesn't support get devnet pool info, so in devnet else we go rpc method
